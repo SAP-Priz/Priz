@@ -1,0 +1,365 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins";
+  font-style: normal;
+  background-color: #f2f2f6;
+}
+body nav {
+  margin-left: 150px;
+  height: 68px;
+  background-color: FFFFFF;
+}
+body nav a {
+  color: 0D0D0D;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-right: 80px !important;
+}
+body nav a:hover {
+  color: 1174F0;
+}
+main customer-name {
+  font-weight: 600;
+  font-size: 27.65px;
+  line-height: 41px;
+  color: #000000;
+}
+
+/* footer */
+footer {
+  background-color: #475c77;
+  height: 300px;
+  margin-top: 100px;
+}
+/*Sign Up page*/
+.signup {
+  margin-top: 120px !important;
+  margin: auto;
+  background-color: #fff;
+  width: 480px;
+}
+.signup h3 {
+  font-weight: 600;
+  font-size: 27.65px;
+  line-height: 41px;
+  padding-top: 40px;
+  text-align: center;
+}
+.signup h5 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.2px;
+  line-height: 29px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.signup form {
+  padding-left: 90px;
+}
+.signup label {
+  display: block;
+}
+.signup input {
+  width: 70%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  height: 30px;
+  border-radius: 2px;
+}
+.signup form .phone {
+  width: 60% !important;
+}
+.signup form button {
+  display: block;
+  /* padding: 10px; */
+  color: #ffffff;
+  background-color: #1174f0;
+  height: 48px;
+  text-align: center;
+  width: 70%;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.signup form p {
+  font-weight: 400;
+  font-size: 13.3px;
+  line-height: 20px;
+  padding-left: 50px;
+  margin-bottom: 15px;
+}
+.signup form a {
+  font-weight: 500;
+  font-size: 13.3px;
+  line-height: 20px;
+  color: #1d81ff;
+}
+
+/* Login Page */
+.login {
+  margin-top: 150px !important;
+  margin: auto;
+  background-color: #fff;
+  width: 480px;
+  padding: 26px 67px;
+}
+.login h3 {
+  font-size: 27.65px;
+  font-weight: 600;
+  text-align: center;
+}
+.login h5 {
+  font-size: 19.2px;
+  margin-top: 16px;
+  text-align: center;
+}
+.login .enter-passcode {
+  color: #535557;
+  font-size: 16px;
+  margin-top: 38px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.login form {
+  display: flex;
+  margin-left: 67px;
+}
+.login form input {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+  margin-top: 20px;
+}
+.login button {
+  width: 271px;
+  padding: 12px 40px;
+  border-radius: 6px;
+  background: #1174f0;
+  margin-top: 60px;
+  margin-left: 45px;
+  color: #fff;
+}
+.login .forgot-passcode {
+  color: #1d81ff;
+  font-size: 13.3px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 17px;
+}
+.login .signup-account {
+  font-size: 13.3px;
+  margin-top: 17px;
+  margin-left: 45px;
+}
+
+/* Overview */
+.customer-name {
+  font-size: 27.65px;
+  font-weight: 600;
+  margin-top: 38px;
+}
+.overview .customer-details {
+  background-color: #fff;
+  width: 600px;
+  padding: 17px 30px;
+  border-radius: 10px;
+}
+.overview .customer-account {
+  color: #475c77;
+  font-size: 16px;
+}
+.overview .balance {
+  color: #929292;
+  font-size: 13.33px;
+}
+.overview .customer-balance {
+  color: #1174f0;
+  font-size: 33.2px;
+  font-weight: 600;
+}
+.overview .add-money,
+.send-money {
+  background-color: #1174f0;
+  border-radius: 6px;
+  padding: 12px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 37px;
+}
+
+.transactions h4 {
+  font-size: 19.2px;
+  font-weight: 500;
+  margin-top: 43px;
+  color: #000;
+}
+.transactions h6 {
+  display: flex;
+  color: #1174f0;
+  font-size: 16px;
+  font-weight: 500;
+}
+.transactions .transaction-details {
+  padding: 12px 10px;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  border-radius: 10px;
+  background: #fff;
+  width: 600px;
+}
+.transactions .transaction .transaction-date {
+  color: #929292;
+  font-size: 13.33px;
+  font-family: Poppins;
+  font-weight: 500;
+  letter-spacing: -0.2px;
+}
+.icon-received {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: green;
+}
+.icon-sent {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: red;
+}
+
+.transactions .transaction .transaction-name {
+  color: #0d0d0d;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+.transactions .transaction .transaction-type {
+  color: #929292;
+  font-size: 13.33px;
+  align-items: flex-end;
+  margin-left: 10px;
+}
+.transaction-div {
+  display: flex;
+}
+.transactions .transaction .transaction-amount {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 400px;
+  margin-bottom: 0px;
+}
+.transactions .transaction .transaction-time {
+  color: #929292;
+  font-size: 13.33px;
+  margin-left: 400px;
+}
+
+/* Hero section */
+.hero-section {
+  display: flex;
+  margin-top: 520px;
+}
+.hero-part1 {
+}
+.hero-section .hero-title {
+  font-size: 47.78px;
+  font-weight: 600;
+  color: #000;
+  width: 465px;
+}
+.hero-section .hero-display {
+  font-size: 16px;
+  width: 350px;
+}
+.hero-section button {
+  width: 352px;
+  padding: 12px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 6px;
+  background: #1174f0;
+  color: #fff;
+}
+.hero-image {
+  margin-left: 288px;
+  width: 344px;
+  height: 354px;
+  flex-shrink: 0;
+}
+
+.features {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.feartures.features-title {
+  color: #000;
+  font-size: 23.04px;
+  font-family: Poppins;
+  font-weight: 600;
+}
+.features-row {
+  text-align: center;
+}
+.features-1,
+.features-2,
+.features-3 {
+  background-color: #ffffff;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  /* margin-right: 10px; */
+}
+.features-wycd1 {
+  font-size: 19.2px;
+  font-family: Poppins;
+  font-weight: 500;
+}
+
+.features-wycd2 {
+  font-size: 16px;
+  color: #000;
+  width: 184px;
+  text-align: center;
+  margin: auto;
+}
+
+header {
+  background-color: #fff;
+  display: flex;
+}
+header ul {
+  display: flex;
+  gap: 100px;
+  padding-top: 10px;
+  /* padding-bottom: 10px; */
+  list-style-type: none;
+}
+header ul li:hover {
+  color: #1174f0;
+  cursor: pointer;
+}
+header ul li {
+  color: #0d0d0d;
+  font-size: 16px;
+}
+header img {
+  margin-top: 15px;
+  width: 14px;
+  height: 16px;
+}
