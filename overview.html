@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./bootstrap-style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="d-flex container">
+        <div class="col-11">
+          <ul>
+            <li>Overview</li>
+            <li>Statistics</li>
+            <li>Cards</li>
+            <li>Transactions</li>
+          </ul>
+        </div>
+        <div class="col-1">
+          <a href="./login.html">
+            <img src="./images/account.svg" />
+          </a>
+        </div>
+      </div>
+    </header>
+    <div class="transaction-detail-modal hidden">
+      <button class="transaction-detail-modal-btnClose">X</button>
+      <div class="receive-icon text-center">
+        <img src="./images/receive.png" />
+      </div>
+      <p class="transaction-type-modal text-center">Received</p>
+      <p class="transaction-time-modal">On May 21, 2023 at 13:35 PM</p>
+      <p class="transaction-status-modal">Successful</p>
+      <div class="text-center">
+        <img class="me-2" src="./images/download-icon.svg" />
+        <img src="./images/share.svg" />
+      </div>
+      <p class="modal-subtitle">Amount</p>
+      <p class="modal-fill">₦ 7,500.00</p>
+      <div class="d-flex">
+        <div>
+          <p class="modal-subtitle">To</p>
+          <p class="modal-fill">Michael James</p>
+        </div>
+        <div class="">
+          <img src="./images/download (1) 1.png" />
+        </div>
+      </div>
+      <p class="modal-subtitle">Payment method</p>
+      <p class="modal-fill">Electronic transfer</p>
+      <div>
+        <p class="modal-subtitle">Description</p>
+        <p class="modal-fill">Sent from the app</p>
+      </div>
+      <div>
+        <p class="modal-subtitle">Transaction reference</p>
+        <p class="modal-fill">1BGF454BHGFY6765JHJTY7</p>
+      </div>
+    </div>
+    <section class="overview">
+      <div class="container">
+        <div class="row">
+          <div class="col-7">
+            <h3 class="customer-name">Hello, John</h3>
+            <div class="customer-details">
+              <p class="customer-account">Account: <span>9029029391</span></p>
+              <p class="balance">Balance</p>
+              <p class="customer-balance">₦ 250,000.00</p>
+            </div>
+            <div>
+              <button class="add-money">Add money</button>
+              <button class="send-money">Send money</button>
+            </div>
+            <div class="transactions">
+              <h4>Recent Transactions</h4>
+              <h6>Show all</h6>
+              <div class="transaction-details">
+                <div class="transaction">
+                  <div class="transaction-date">21/5/23</div>
+                  <div class="transaction-div">
+                    <div class="icon-received"></div>
+                    <div>
+                      <p class="transaction-name">Michael</p>
+                      <p class="transaction-type">Received</p>
+                    </div>
+                    <div>
+                      <p class="transaction-amount">₦ 7500.00</p>
+                      <p class="transaction-time">13.45</p>
+                    </div>
+                  </div>
+                  <div class="transaction-div">
+                    <div class="icon-received"></div>
+                    <div>
+                      <p class="transaction-name">Patricia</p>
+                      <p class="transaction-type">Received</p>
+                    </div>
+                    <div>
+                      <p class="transaction-amount">₦ 7500.00</p>
+                      <p class="transaction-time">13.45</p>
+                    </div>
+                  </div>
+                  <hr />
+                </div>
+                <div class="transaction">
+                  <div class="transaction-date">21/5/23</div>
+                  <div class="transaction-div">
+                    <div class="icon-received"></div>
+                    <div>
+                      <p class="transaction-name">Michael</p>
+                      <p class="transaction-type">Received</p>
+                    </div>
+                    <div>
+                      <p class="transaction-amount">₦ 7500.00</p>
+                      <p class="transaction-time">13.45</p>
+                    </div>
+                  </div>
+                  <div class="transaction-div">
+                    <div class="icon-sent"></div>
+                    <div>
+                      <p class="transaction-name">Patricia</p>
+                      <p class="transaction-type">Received</p>
+                    </div>
+                    <div>
+                      <p class="transaction-amount">₦ 7500.00</p>
+                      <p class="transaction-time">13.45</p>
+                    </div>
+                  </div>
+                  <hr />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-5 flex">
+            <div class="income mt-4">
+              <img src="./images/statistics container.png" />
+            </div>
+            <div class="ad mt-3"><img src="./images/ads container.png" /></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="transaction-detail-modal hidden">
+      <p class="transaction-detail-modal-btnclose">X</p>
+      <div class="receive-icon text-center">
+        <img src="./images/receive.png" />
+      </div>
+      <p class="transaction-type-modal text-center">Received</p>
+      <p class="transaction-time-modal">On May 21, 2023 at 13:35 PM</p>
+      <p class="transaction-status-modal">Successful</p>
+      <div class="text-center">
+        <img class="me-2" src="./images/download-icon.svg" />
+        <img src="./images/share.svg" />
+      </div>
+      <p class="modal-subtitle">Amount</p>
+      <p class="modal-fill">₦ 7,500.00</p>
+      <div class="d-flex">
+        <div>
+          <p class="modal-subtitle">To</p>
+          <p class="modal-fill">Michael James</p>
+        </div>
+        <div class="">
+          <img src="./images/download (1) 1.png" />
+        </div>
+      </div>
+      <p class="modal-subtitle">Payment method</p>
+      <p class="modal-fill">Electronic transfer</p>
+      <div>
+        <p class="modal-subtitle">Description</p>
+        <p class="modal-fill">Sent from the app</p>
+      </div>
+      <div>
+        <p class="modal-subtitle">Transaction reference</p>
+        <p class="modal-fill">1BGF454BHGFY6765JHJTY7</p>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
